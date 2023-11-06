@@ -1,0 +1,89 @@
+@font-face
+{
+    font-family: todoFont;
+    src: url(../assets/font.ttf);
+}
+
+body
+{
+    background-color: bisque;
+    color: #333;
+    font-family: "todoFont";
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    color: bisque;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header svg
+{
+    margin: 5px;
+    float: right;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h1
+{
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+h3
+{
+    cursor: pointer;
+}
+h3:hover
+{
+    text-decoration: underline;
+}
+
+#main
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card
+{
+    margin: 20px;
+    background: #333;
+    width: 250px;
+    border-radius: 15px;
+    color: bisque;
+    padding: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.progress-bar
+{
+    margin-top: 40px;
+    width: 200px;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    height: 10px;
+    margin-left: 25px;
+}
+.progress-bar div
+{
+    background-color: rgb(101, 168, 224);
+    height: 100%;
+    border-radius: 10px;
+}
+
+.progress-text
+{
+    margin-top: 10px;
+}
